@@ -1,0 +1,31 @@
+.each-todo {
+  border-left: 5px solid #1e97fe;
+}
+
+.each-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  padding-right: 13px;
+  list-style-type: none;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.checked-item {
+  opacity: 0.7;
+  border-left: 5px solid #86dc3d;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.todo-list-container {
+  margin-right: 20px;
+}

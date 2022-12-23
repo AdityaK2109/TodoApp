@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.page {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #a28089,
+    #ffa886,
+    #edf7f6,
+    #9df9ef,
+    #51e2f5
+  );
+}
+
+.page-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.add-todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #6c8dfa;
+  width: 40%;
+  margin-right: 30px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-text {
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+.input-container {
+  border: 1px solid #47556990;
+  outline: none;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 14px;
+  height: 32px;
+  align-self: stretch;
+}
+
+.add-todo-button {
+  background-color: #ec1c4b;
+  outline: none;
+  cursor: pointer;
+  align-self: stretch;
+  height: 37px;
+  border: 0px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.todo-list-container {
+  padding: 0px;
+}
+
+.content-container {
+  display: flex;
+  min-height: 600px;
+  width: 100%;
+  max-width: 1000px;
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.list-todo-container {
+  width: 60%;
+}
+
+.todo-list-container {
+  margin-right: 20px;
+}
+
+.todo-list-heading {
+  font-family: 'Roboto';
+  border-bottom: 2px solid #ff007f;
+  width: 150px;
+}
